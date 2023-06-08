@@ -9,3 +9,121 @@
 :root {
   --bs-body-bg: var(--bs-gray-100);
 }
+
+
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    color: #6f6f6e;
+  }
+
+  h1 {
+    color: #DA0921;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #3100A0;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: #6f6f6e;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+
+
+  header h1 {
+    color: #ffffff;
+  }
+
+  header p {
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+
+  header a.btn {
+    background-color: #3100A0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+
+  /* Estilos de la sección de la agenda */
+  section:nth-child(2) {
+    background-color: #190356;
+    padding: 40px;
+    text-align: center;
+  }
+
+  section:nth-child(2) h2 {
+    color: #ffffff;
+  }
+
+  /* Estilos de la sección de la Dirección de Tecnología */
+  section:nth-child(3) {
+    background-color: #6f6f6e;
+    padding: 40px;
+    text-align: center;
+  }
+
+  section:nth-child(3) h2 {
+    color: #ffffff;
+  }
+
+  section:nth-child(3) img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos de los acordeones y tabs */
+  section:nth-child(4) {
+    background-color: #9b9a9a;
+    padding: 40px;
+    text-align: center;
+  }
+
+  section:nth-child(4) h2 {
+    color: #ffffff;
+  }
+
+  /* Estilos del formulario de contacto */
+  section:nth-child(5) {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+  }
+
+  section:nth-child(5) h2 {
+    color: #DA0921;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #9b9a9a;
+    border-radius: 4px;
+  }
+
+  form button[type="submit"] {
+    background-color: #3100A0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
